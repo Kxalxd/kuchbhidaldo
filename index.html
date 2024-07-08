@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    
+    <nav>
+        <div class="active"></div>
+        <div class="logo"><i>Technology Overview</i></div>
+        <div class="menu">
+            <ul>
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="login.html">login</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <button class="cls" id="cls">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </nav>
+
+    <script>
+        document.getElementById('cls').addEventListener('click', function () {
+    document.querySelector('.menu').classList.toggle('active');
+});
+
+    </script>
+    
+
+    <div class="container">
+        <!-- <h1>Technology Overview</h1> -->
+        <nav>
+            <ul>
+                <li><a href="#ai">Artificial Intelligence</a></li>
+                <li><a href="#ml">Machine Learning</a></li>
+                <li><a href="#ds">Data Science</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <section id="ai">
+        <div class="container">
+            <h2>Artificial Intelligence </h2>
+            <img src="AI.jpg" alt="Artificial Intelligence" class="round-image">
+            <p>
+                <u><b>Artificial Intelligence (AI) </b></u> is the simulation of human intelligence in machines that are programmed to think like humans and mimic their actions. The term may also be applied to any machine that exhibits traits associated with a human mind such as learning and problem-solving.
+            </p>
+           
+        </div>
+    </section>
+
+    <section id="ml">
+        <div class="container">
+            <h2>Machine Learning</h2>
+            <img src="ml.jpg" alt="Machine Learning" class="round-image">
+            <p>
+                <u><b>Machine Learning (ML)</b></u> is a subset of AI that involves the use of algorithms and statistical models to enable computers to learn and make decisions based on data. ML algorithms improve automatically through experience and by the use of data.
+            </p>
+        </div>
+    </section>
+
+    <section id="ds">
+        <div class="container">
+            <h2>Data Science</h2>
+            <img src="da.jpg" alt="Data Science" class="round-image">
+            <p>
+                <u><b>Data Science (DS)</b></u> is an interdisciplinary field that uses scientific methods, processes, algorithms, and systems to extract knowledge and insights from structured and unstructured data.
+                It combines domain expertise, programming skills, and knowledge of mathematics and statistics to create insights and predictions.
+                </p> 
+                <div class="ass">
+                <aside>
+                    <p>The Epcot center is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p><br>
+                </aside>
+                </div>
+
+        </div>
+    </section>
+
+    <section id="vd">
+        <div class="container">
+            <h2>Technology with nature</h2>
+            <iframe src="video-2.mp4" frameborder="0" class="round-image" ></iframe>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Technology Overview. All rights reserved.</p>
+        </div>
+    </footer>
+    
+</body>
+</html> 
